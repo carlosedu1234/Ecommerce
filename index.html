@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h1>hola</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./base/reset.css" />
+    <link rel="stylesheet" href="./base/body.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/productos.css" />
+    <link rel="stylesheet" href="./css/rodapie.css" />
+    <link rel="stylesheet" href="./css/componentes/botones.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ecomerce</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div class="header-conteiner">
+        <div class="header__titulo_conteiner">
+          <div class="header__img___conteiner">
+            <img src="./img/logoEcomerce.png" alt="Logo.png" />
+          </div>
+          <h2 class="header__titulo">
+            <span class="color-first-four">Alura</span>Geek
+          </h2>
+          <input
+            class="header__buscador"
+            type="text"
+            id="search-input"
+            placeholder="¿Qué deseas buscar?..."
+            oninput="searchItems()"
+          />
+          <ul id="search-results"></ul>
+        </div>
+        <a class="header__login" href="#">Login</a>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section>
+      <div>
+        <div class="banner-conteiner">
+          <h1 class="banner-titulo">Febrero Promocional</h1>
+          <p class="banner-parrafo">
+            Productos seleccionados con un 33% de descuento
+          </p>
+          <a class="boton-uno" href="#">Ver Consolas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú -->
+    <main>
+      <section>
+        <!-- Temática -->
+        <div class="productos-contenedor">
+          <div class="producto__contenedo_titulos">
+            <h3 class="productos__titulos">Start Wars</h3>
+            <a class="producto__boton" href="#">Ver todo</a>
+          </div>
+          <ul class="productos__tematica__contenedor">
+            <li>
+              <div class="productos__contenedor__img">
+                <img src="./img/imagenprueba.jpg" alt="imgProgucto" />
+              </div>
+              <p class="producto__nombre">Nombre</p>
+              <p class="producto__precio">Precio</p>
+              <a class="producto__boton" href="#">Ver Producto</a>
+            </li>
+            <li>
+                <div class="productos__contenedor__img">
+                  <img src="./img/imagenprueba.jpg" alt="imgProgucto" />
+                </div>
+                <p class="producto__nombre">Nombre</p>
+                <p class="producto__precio">Precio</p>
+                <a class="producto__boton" href="#">Ver Producto</a>
+              </li>
+              <li>
+                <div class="productos__contenedor__img">
+                  <img src="./img/imagenprueba.jpg" alt="imgProgucto" />
+                </div>
+                <p class="producto__nombre">Nombre</p>
+                <p class="producto__precio">Precio</p>
+                <a class="producto__boton" href="#">Ver Producto</a>
+              </li>
+          </ul>
+        </div>
+
+        <!-- Consolas -->
+        <div class="productos-contenedor">
+          <div class="producto__contenedo_titulos">
+            <h3 class="productos__titulos">Consolas</h3>
+            <a class="producto__boton" href="#">Ver todo</a>
+          </div>
+          <ul class="productos__tematica__contenedor">
+            <li>
+              <div class="productos__contenedor__img">
+                <img src="./img/imagenprueba.jpg" alt="imgProgucto" />
+              </div>
+              <p class="producto__nombre">Nombre</p>
+              <p class="producto__precio">Precio</p>
+              <a class="producto__boton" href="#">Ver Producto</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Diversos -->
+
+        <div class="productos-contenedor">
+          <div class="producto__contenedo_titulos">
+            <h3 class="productos__titulos">Diversos</h3>
+            <a class="producto__boton" href="#">Ver todo</a>
+          </div>
+          <ul class="productos__tematica__contenedor">
+            <li>
+              <div class="productos__contenedor__img">
+                <img src="./img/imagenprueba.jpg" alt="imgProgucto" />
+              </div>
+              <p class="producto__nombre">Nombre</p>
+              <p class="producto__precio">Precio</p>
+              <a class="producto__boton" href="#">Ver Producto</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Indormacion -->
+    <section class="fondo-rodapie">
+      <div class="rodapie-container">
+        <div class="rodapie-container__logo">
+          <div class="header__img___conteiner">
+            <img src="./img/logoEcomerce.png" alt="Logo.png" />
+          </div>
+          <h2 class="header__titulo">
+            <span class="color-first-four">Alura</span>Geek
+          </h2>
+        </div>
+        <div class="rodapie__container__enlaces">
+          <a href="#">Quienes somos</a>
+          <a href="#">Politica de privacidad</a>
+          <a href="#">Programa de fidelidad</a>
+          <a href="#">Nuestras Tiendas</a>
+          <a href="#">Quiero ser franquiciado</a>
+          <a href="#">Anuncie aqui</a>
+        </div>
+        <div>
+          <form class="rodapie-contenedor-form">
+            <label for="nombre">Habla con nosotros</label>
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <textarea
+              name="comentario"
+              rows="4"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+            <a type="submit" class="boton-uno" href="#">Enviar Mensaje</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Indormacion -->
+    <footer>
+      <div class="contenerdor-footer"><p>&copy; 2023 Carlos Riaño</p></div>
+    </footer>
+    <script type="module" src=""></script>
+  </body>
 </html>

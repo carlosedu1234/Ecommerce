@@ -1,0 +1,15 @@
+.boton-uno {
+    background: rgba(0, 183, 255, 0.6);
+    text-decoration: none;
+    padding: 1em;
+    margin-left: 5rem;
+    margin-bottom: 3em;
+    font-size: 1.1em;
+  }
+  
+  .boton-uno:hover {
+    background: rgba(0, 183, 255, 0.8);
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  

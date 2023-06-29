@@ -1,0 +1,45 @@
+.header-conteiner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__titulo_conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.header__img___conteiner {
+  height: 8vh;
+  width: 10vh;
+}
+.header__img___conteiner img {
+  height: 100%;
+  width: 100%;
+}
+.header__titulo {
+  margin-right: 2em;
+}
+.color-first-four{
+    color: blue;
+  }
+
+.header__buscador {
+  height: 5vh;
+  width: 30vh;
+  box-sizing: border-box;
+  border-radius: 40px;
+  border: none;
+  background-color: rgba(161, 159, 157, 0.2);
+}
+
+.header__login {
+
+    text-align: center;
+    padding: 1em 2em;
+    border: solid 1px blue;
+    text-decoration: none;
+    color: blue;
+}

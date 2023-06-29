@@ -1,0 +1,10 @@
+body {
+  font-family: "Montserrat";
+}
+
+input::placeholder, textarea::placeholder{
+
+    color: #999; /* Cambia el color del texto del marcador de posición */
+    opacity: 0.7; 
+
+}

@@ -1,0 +1,61 @@
+.fondo-rodapie {
+  background: rgba(36, 201, 234, 0.1);
+}
+
+.rodapie-container {
+  width: 80vw;
+  padding: 3em;
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rodapie-container__logo {
+  display: flex;
+  width: 100%;
+}
+.rodapie-container__logo img h2 {
+  width: 30%;
+  margin: 0;
+}
+
+.rodapie-container div {
+  width: 33%;
+}
+
+.rodapie__container__enlaces {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  margin: 0 2em;
+}
+
+.rodapie__container__enlaces a {
+  text-decoration: none;
+}
+
+.rodapie-contenedor-form {
+  align-items: flex-start;
+  gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.rodapie-contenedor-form a {
+  width: 35%;
+  margin: 0;
+  font-size: 1em;
+}
+.rodapie-contenedor-form label {
+  font-weight: bold;
+}
+
+.rodapie-contenedor-form input {
+  height: 5vh;
+}
+
+.rodapie-contenedor-form input,
+textarea {
+  border: none;
+  width: 100%;
+  resize: none;
+}
