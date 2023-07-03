@@ -1,0 +1,42 @@
+.register-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+ 
+}
+
+.register-card__icon-complete {
+  margin-top: 18em;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url(../../img/iconoEnviado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.posicion__tarjeta {
+  margin: auto 0;
+}
+
+.texto{
+
+  margin-bottom: 1.5em ;
+}
+
+.boton{
+ 
+  text-decoration: none;
+  padding: 1em;
+  background-color: rgb(172, 188, 213);
+  font-weight: 700;
+}
+.boton:hover{
+
+  transition: 1s;
+  transform: scale(1.05);
+  background-color: rgb(142, 160, 188);
+
+}

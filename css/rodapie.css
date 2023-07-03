@@ -51,6 +51,7 @@
 
 .rodapie-contenedor-form input {
   height: 5vh;
+  
 }
 
 .rodapie-contenedor-form input,
@@ -58,4 +59,5 @@ textarea {
   border: none;
   width: 100%;
   resize: none;
+  border-bottom: 1px solid #ccc;
 }

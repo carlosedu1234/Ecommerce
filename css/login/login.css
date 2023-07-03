@@ -1,0 +1,64 @@
+.fondo-login {
+  background: rgba(74, 79, 81, 0.1);
+}
+.login-conteiner {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 5em;
+}
+
+.login__form__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login__form__conteiner input {
+  height: 3vw;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.login__form__conteiner button {
+  text-align: center;
+  width: 100%;
+  margin-left: 0em;
+  border: none;
+  padding: 1em;
+  box-sizing: border-box;
+ 
+}
+
+.login__form__conteiner button:hover {
+    transform: scale(1.01);
+}
+.login-titulo{
+
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    
+}
+
+.rodapie-container {
+  margin: 0 1em;
+}
+
+.rodapie-contenedor-form a {
+  box-sizing: border-box;
+}
+
+.header__login__volver{
+
+    max-height: 1em;
+    padding: 1em;
+    opacity: 0.7;
+}
+
+.header__login__volver:hover{
+
+    opacity: 1;
+
+}

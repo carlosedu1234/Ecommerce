@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../base/body.css" />
+    <link rel="stylesheet" href="../base/reset.css" />
+    <link rel="stylesheet" href="../css/componentes/botones.css" />
+    <link rel="stylesheet" href="../css/rodapie.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/login/login.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div class="header-conteiner">
+        <div class="header__titulo_conteiner">
+          <div class="header__img___conteiner">
+            <a href="../index.html"><img src="../img/logoEcomerce.png" alt="Logo.png" /></a>
+          </div>
+          <h2 class="header__titulo">
+            <span class="color-first-four">Alura</span>Geek
+          </h2>
+          <input
+            class="header__buscador"
+            type="text"
+            id="search-input"
+            placeholder="¿Qué deseas buscar?..."
+            oninput="searchItems()"
+          />
+          <ul id="search-results"></ul>
+         
+        </div>
+        <a class="header__login header__login__volver" href="../index.html">Volver a inicio</a>
+      </div>
+    </header>
+
+    <!--Registro-->
+    <main>
+      <section class="fondo-login">
+        <div class="login-conteiner">
+          <form class="login__form__conteiner" data-form>
+            <label class="login-titulo"> Registro</label>
+            <input type="text" placeholder="Digita Nombre" data-nombre required/>
+            <input type="password" placeholder="Digita Contraseña" data-password required/>
+            <button type="submit" class="boton-uno">Registrar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Informacion -->
+    <section class="fondo-rodapie">
+      <div class="rodapie-container">
+        <div class="rodapie-container__logo">
+          <div class="header__img___conteiner">
+            <img src="../img/logoEcomerce.png" alt="Logo.png" />
+          </div>
+          <h2 class="header__titulo">
+            <span class="color-first-four">Alura</span>Geek
+          </h2>
+        </div>
+        <div class="rodapie__container__enlaces">
+          <a href="#">Quienes somos</a>
+          <a href="#">Politica de privacidad</a>
+          <a href="#">Programa de fidelidad</a>
+          <a href="#">Nuestras Tiendas</a>
+          <a href="#">Quiero ser franquiciado</a>
+          <a href="#">Anuncie aqui</a>
+        </div>
+        <div>
+          <form class="rodapie-contenedor-form">
+            <label for="nombre">Habla con nosotros</label>
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <textarea
+              name="comentario"
+              rows="4"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+            <a type="submit" class="boton-uno" href="#">Enviar Mensaje</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="contenerdor-footer"><p>&copy; 2023 Carlos Riaño</p></div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+  <script type="module" src="../controllers/RegistroController.js"></script>
+</html>

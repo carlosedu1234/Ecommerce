@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": "e4ce166b-5bfa-440c-b363-9b9d5e985ad6",
+      "nombre": "",
+      "password": ""
+    },
+    {
+      "id": "f98355b8-7a1a-45f5-b7d3-df7aad527810",
+      "nombre": "casdas",
+      "password": "dsadsa"
+    }
+  ],
+  "producto": [
+    {
+      "id": 1,
+      "nombre": "control",
+      "descripcion": "diseñado para larga horas de usp",
+      "precio": "2000"
+    }
+  ]
+}
