@@ -16,7 +16,7 @@ console.log(nombre);
 
 
     } catch (error) {
-        
+        window.location.href="../screens/registro_error.html"
         console.log("error al registrar"+error);
     }
 

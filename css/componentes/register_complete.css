@@ -16,6 +16,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.register-card__icon-incompleto{
+  background-image: url(../../img/error-registro.png);
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
 
 .posicion__tarjeta {
   margin: auto 0;
