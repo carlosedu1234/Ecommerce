@@ -2,7 +2,7 @@ const url = "http://localhost:3000/usuarios";
 
 const registroClientes = async (nombre, password) => {
     try {
-        const response = await fetch("http://localhost:3000/usuarios", {
+        const response = await fetch(url, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

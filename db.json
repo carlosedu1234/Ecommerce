@@ -21,7 +21,38 @@
       "id": 1,
       "nombre": "control",
       "descripcion": "diseñado para larga horas de usp",
-      "precio": "2000"
+      "precio": "2000",
+      "portada": "/img/imagenprueba.jpg"
+    },
+    {
+      "id": "2fdfe10b-19b1-423a-b776-04ad2dcdd3ed",
+      "nombre": "controles",
+      "precio": "perfecto para jugar",
+      "descripcion": "20000"
+    },
+    {
+      "id": "490dafdd-e3c8-4b4d-b76a-e7843bbb796e",
+      "nombre": "Maria",
+      "precio": "sadas",
+      "descripcion": "20000"
+    },
+    {
+      "id": "2e3f5b17-0a14-435d-aaee-253c3ce068df",
+      "nombre": "controles",
+      "precio": "2211",
+      "descripcion": "2132132132132132132"
+    },
+    {
+      "id": "61e926ea-52de-4cc8-b890-67aad5e9663c",
+      "nombre": "controles",
+      "precio": "2211",
+      "descripcion": "para jugar"
+    },
+    {
+      "id": "e2279c8a-38a6-4de9-ac7a-e1b6b315c1eb",
+      "nombre": "Manos Libres",
+      "precio": "5000",
+      "descripcion": "Para celulares"
     }
   ]
 }

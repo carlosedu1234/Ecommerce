@@ -42,17 +42,17 @@
    <main class="fondo-login">
 
     <div class="producto-conteiner">
-        <form class="producto-conteiner-producto">
-            <label for="nombre">Nombre: </label>
-            <input name="nombre" type="text" placeholder="Nombre">
+        <form class="producto-conteiner-producto" data-form>
+            <label for="nombre" >Nombre: </label>
+            <input name="nombre" type="text" placeholder="Nombre" data-nombre>
             <label for="descripcion">Descripcion</label>
             <textarea  name="descripcion" data-descripcion placeholder="Descripcion Producto"></textarea>
             <label for="precio">Precio</label>
-            <input id="precio" name="precion" type="text" placeholder="Precio" required>
-            <div class="conteiner-imagen"><img src="../img/imagenprueba.jpg" alt="imagen-producto.png"></div>
+            <input id="precio" name="precio" type="text" placeholder="Precio" required data-precio>
+            <div class="conteiner-imagen"><img src="../img/imagenprueba.jpg" alt="imagen-producto.png" data-imagen></div>
             <label for="imagen">Imagen-Producto</label>
-            <input type="file" id="imagen-producto" > 
-
+            <input type="file" id="imagen-producto" data-imagen> 
+            <button type="submit" class="boton-uno boton-producto">Carga Producto</button>
         </form>
     </div>
    </main>
@@ -98,5 +98,5 @@
     </footer>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
-  <script type="module" src="../controllers/RegistroController.js"></script>
+  <script type="module" src="../controllers/ProductoController.js"></script>
 </html>

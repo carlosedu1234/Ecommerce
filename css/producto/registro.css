@@ -43,3 +43,15 @@ textarea {
   width: 100%;
   height: 100%;
 }
+
+.boton-producto{
+  border: none;
+  color: blue;
+  width: 20%;
+  margin-right: 3em;
+}
+
+.boton-producto:hover{
+transform: scale(1.05);
+transition: 1;
+}
