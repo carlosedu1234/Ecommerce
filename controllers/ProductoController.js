@@ -1,6 +1,7 @@
 import { producto } from "../service/service_producto.js";
 
 
+
 const listaProductos = document.querySelector("[data-form]");
 
 listaProductos.addEventListener("submit", async (evento) => {

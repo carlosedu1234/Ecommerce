@@ -14,6 +14,16 @@
       "id": "9ba7dfe3-30cb-4d63-bbec-c74a4183a7a3",
       "nombre": "fernanda",
       "password": "1234"
+    },
+    {
+      "id": "4ed13fc3-ab36-465c-8087-7a54ad3f36ee",
+      "nombre": "carlos",
+      "password": "12345"
+    },
+    {
+      "id": "91521d54-362e-48c9-822c-25ab0de91602",
+      "nombre": "carlos",
+      "password": "12345"
     }
   ],
   "producto": [
